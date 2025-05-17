@@ -34,7 +34,9 @@ export default function Header() {
             <User className="h-4 w-4 mr-2" />
             Login
           </Button>
-          <Button size="sm">Get Started</Button>
+          <Button size="sm" asChild>
+            <Link to="/upload">Get Started</Link>
+          </Button>
         </div>
         
         {/* Mobile menu button */}
@@ -85,7 +87,9 @@ export default function Header() {
               <User className="h-4 w-4 mr-2" />
               Login
             </Button>
-            <Button size="sm">Get Started</Button>
+            <Button size="sm" asChild>
+              <Link to="/upload">Get Started</Link>
+            </Button>
           </div>
         </div>
       )}
