@@ -8,6 +8,7 @@ import CelebritySelection from '@/pages/CelebritySelection';
 import CarSelection from '@/pages/CarSelection';
 import VirtualTour from '@/pages/VirtualTour';
 import VideoGeneration from '@/pages/VideoGeneration';
+import VideoShare from '@/pages/VideoShare';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/cars" element={<CarSelection />} />
             <Route path="/tour" element={<VirtualTour />} />
             <Route path="/video" element={<VideoGeneration />} />
+            <Route path="/share" element={<VideoShare />} />
             
             {/* Placeholder routes that will be implemented later */}
             <Route path="/how-it-works" element={<Home />} />
